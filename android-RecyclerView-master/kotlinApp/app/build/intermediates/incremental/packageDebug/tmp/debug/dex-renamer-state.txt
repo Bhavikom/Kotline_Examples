@@ -1,0 +1,4 @@
+#Mon Mar 11 10:32:46 IST 2019
+base.0=E\:\\Bhavik\\AndroidProjects\\01 DEMO\\21 KOTLINE DEMO\\android-RecyclerView-master\\kotlinApp\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,99 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-NavigationDrawer-master\kotlinApp\Application\src\main\AndroidManifest.xml:18:1-41:12
+INJECTED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-NavigationDrawer-master\kotlinApp\Application\src\main\AndroidManifest.xml:18:1-41:12
+INJECTED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-NavigationDrawer-master\kotlinApp\Application\src\main\AndroidManifest.xml:18:1-41:12
+INJECTED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-NavigationDrawer-master\kotlinApp\Application\src\main\AndroidManifest.xml:18:1-41:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\1a1a1e1f15401b0c6f53c96da466f052\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\25d5f6218fb8b4557182b6256428421e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\cdadff38234ef6a39ae4ed4ade8ab2ab\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\b9fca12ef6fc7d47ec44d92439a5be20\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\739fcaaa08283ced89d1e083f31bd939\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\85ec5d0a2cedfdfa7858299578741c72\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\becc325c2eafe84749de561e5132470f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\9d73a099d463232af6fea972da72adf4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\41b8d35630d285bdabd764ed69609512\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\dcadd88030b2b1db967ea7ceb8d0aca3\AndroidManifest.xml:17:1-24:12
+INJECTED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-NavigationDrawer-master\kotlinApp\Application\src\main\AndroidManifest.xml:18:1-41:12
+INJECTED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-NavigationDrawer-master\kotlinApp\Application\src\main\AndroidManifest.xml:18:1-41:12
+INJECTED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-NavigationDrawer-master\kotlinApp\Application\src\main\AndroidManifest.xml:18:1-41:12
+	package
+		ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-NavigationDrawer-master\kotlinApp\Application\src\main\AndroidManifest.xml:19:5-51
+		INJECTED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-NavigationDrawer-master\kotlinApp\Application\src\main\AndroidManifest.xml
+		INJECTED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-NavigationDrawer-master\kotlinApp\Application\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-NavigationDrawer-master\kotlinApp\Application\src\main\AndroidManifest.xml
+		ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-NavigationDrawer-master\kotlinApp\Application\src\main\AndroidManifest.xml:18:1-41:12
+		INJECTED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-NavigationDrawer-master\kotlinApp\Application\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-NavigationDrawer-master\kotlinApp\Application\src\main\AndroidManifest.xml
+		ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-NavigationDrawer-master\kotlinApp\Application\src\main\AndroidManifest.xml:18:1-41:12
+		INJECTED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-NavigationDrawer-master\kotlinApp\Application\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-NavigationDrawer-master\kotlinApp\Application\src\main\AndroidManifest.xml:18:11-69
+application
+ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-NavigationDrawer-master\kotlinApp\Application\src\main\AndroidManifest.xml:21:5-39:19
+	android:label
+		ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-NavigationDrawer-master\kotlinApp\Application\src\main\AndroidManifest.xml:24:9-41
+	android:icon
+		ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-NavigationDrawer-master\kotlinApp\Application\src\main\AndroidManifest.xml:23:9-45
+	android:allowBackup
+		ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-NavigationDrawer-master\kotlinApp\Application\src\main\AndroidManifest.xml:22:9-36
+	android:theme
+		ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-NavigationDrawer-master\kotlinApp\Application\src\main\AndroidManifest.xml:25:9-40
+activity#com.example.android.navigationdrawer.MainActivity
+ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-NavigationDrawer-master\kotlinApp\Application\src\main\AndroidManifest.xml:26:9-34:20
+	android:label
+		ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-NavigationDrawer-master\kotlinApp\Application\src\main\AndroidManifest.xml:28:13-45
+	android:name
+		ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-NavigationDrawer-master\kotlinApp\Application\src\main\AndroidManifest.xml:27:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-NavigationDrawer-master\kotlinApp\Application\src\main\AndroidManifest.xml:29:13-33:29
+action#android.intent.action.MAIN
+ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-NavigationDrawer-master\kotlinApp\Application\src\main\AndroidManifest.xml:30:17-69
+	android:name
+		ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-NavigationDrawer-master\kotlinApp\Application\src\main\AndroidManifest.xml:30:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-NavigationDrawer-master\kotlinApp\Application\src\main\AndroidManifest.xml:32:17-77
+	android:name
+		ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-NavigationDrawer-master\kotlinApp\Application\src\main\AndroidManifest.xml:32:27-74
+activity#com.example.android.navigationdrawer.NavigationDrawerActivity
+ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-NavigationDrawer-master\kotlinApp\Application\src\main\AndroidManifest.xml:35:9-38:20
+	android:label
+		ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-NavigationDrawer-master\kotlinApp\Application\src\main\AndroidManifest.xml:37:13-45
+	android:name
+		ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-NavigationDrawer-master\kotlinApp\Application\src\main\AndroidManifest.xml:36:13-53
+uses-sdk
+INJECTED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-NavigationDrawer-master\kotlinApp\Application\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-NavigationDrawer-master\kotlinApp\Application\src\main\AndroidManifest.xml
+INJECTED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-NavigationDrawer-master\kotlinApp\Application\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\1a1a1e1f15401b0c6f53c96da466f052\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\1a1a1e1f15401b0c6f53c96da466f052\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\25d5f6218fb8b4557182b6256428421e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\25d5f6218fb8b4557182b6256428421e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\cdadff38234ef6a39ae4ed4ade8ab2ab\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\cdadff38234ef6a39ae4ed4ade8ab2ab\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\b9fca12ef6fc7d47ec44d92439a5be20\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\b9fca12ef6fc7d47ec44d92439a5be20\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\739fcaaa08283ced89d1e083f31bd939\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\739fcaaa08283ced89d1e083f31bd939\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\85ec5d0a2cedfdfa7858299578741c72\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\85ec5d0a2cedfdfa7858299578741c72\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\becc325c2eafe84749de561e5132470f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\becc325c2eafe84749de561e5132470f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\9d73a099d463232af6fea972da72adf4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\9d73a099d463232af6fea972da72adf4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\41b8d35630d285bdabd764ed69609512\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\41b8d35630d285bdabd764ed69609512\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\dcadd88030b2b1db967ea7ceb8d0aca3\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\dcadd88030b2b1db967ea7ceb8d0aca3\AndroidManifest.xml:20:5-22:41
+INJECTED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-NavigationDrawer-master\kotlinApp\Application\src\main\AndroidManifest.xml
+INJECTED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-NavigationDrawer-master\kotlinApp\Application\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-NavigationDrawer-master\kotlinApp\Application\src\main\AndroidManifest.xml
+		ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-NavigationDrawer-master\kotlinApp\Application\src\main\AndroidManifest.xml
+		INJECTED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-NavigationDrawer-master\kotlinApp\Application\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-NavigationDrawer-master\kotlinApp\Application\src\main\AndroidManifest.xml
+		ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-NavigationDrawer-master\kotlinApp\Application\src\main\AndroidManifest.xml
+		INJECTED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-NavigationDrawer-master\kotlinApp\Application\src\main\AndroidManifest.xml

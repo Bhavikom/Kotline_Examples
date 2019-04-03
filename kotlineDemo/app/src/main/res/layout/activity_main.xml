@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_checknullpointer"
+        android:text="Check nullpointerexception handling"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_sum"
+        android:text="What is 2 + 3 ?"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn3"
+        android:text="Start Activity"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_assign_dynamic_value"
+        android:text="Start Activity"/>
+    <Button
+        android:id="@+id/btnCheckNetworkConnection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check Network Connection"/>
+    <Button
+        android:id="@+id/btnCheckArraylist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check Arraylist"/>
+
+    <Button
+        android:id="@+id/btnModelClas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check ModelClass"/>
+
+    <Button
+        android:id="@+id/btnCheckPermission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check Marshmallow Permission"/>
+
+    <Button
+        android:id="@+id/btnHashmap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check Hashmap"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/img"/>
+
+
+</LinearLayout>

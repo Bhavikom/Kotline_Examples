@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Thu Mar 07 17:42:22 IST 2019
+0.baseType=DIRECTORY
+0.base=E\:\\Bhavik\\AndroidProjects\\01 DEMO\\21 KOTLINE DEMO\\android-NavigationDrawer-master\\kotlinApp\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.path=classes.dex
+0.set=DEX
+count=1

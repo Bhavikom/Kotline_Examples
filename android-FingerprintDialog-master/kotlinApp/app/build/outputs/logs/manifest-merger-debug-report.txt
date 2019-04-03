@@ -1,0 +1,115 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-FingerprintDialog-master\kotlinApp\app\src\main\AndroidManifest.xml:17:1-48:12
+INJECTED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-FingerprintDialog-master\kotlinApp\app\src\main\AndroidManifest.xml:17:1-48:12
+INJECTED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-FingerprintDialog-master\kotlinApp\app\src\main\AndroidManifest.xml:17:1-48:12
+INJECTED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-FingerprintDialog-master\kotlinApp\app\src\main\AndroidManifest.xml:17:1-48:12
+MERGED from [com.android.support:appcompat-v7:27.0.0] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.0.aar\703770f9e4f585083d00971a52748086\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.0] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.0.aar\1a64a7d37ab9183588fd61af55b21104\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.0] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.0.aar\073f1d9a34c1bcdf4ca5932c1e7e28d9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.0] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.0.aar\799f5a79a6cd550a8e26a223ab13d990\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.0] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.0.aar\5d09f5392d919d8491c72f5a26054d35\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.0] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.0.aar\ce7e94a61fb7af77b4f9e844f7d3d92c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.0] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.0.aar\34a3a5b504101f33c67f0c899faf9f63\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\df80cbe13a4a6c8607f4e2a0d60124f6\AndroidManifest.xml:17:1-30:12
+INJECTED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-FingerprintDialog-master\kotlinApp\app\src\main\AndroidManifest.xml:17:1-48:12
+INJECTED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-FingerprintDialog-master\kotlinApp\app\src\main\AndroidManifest.xml:17:1-48:12
+INJECTED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-FingerprintDialog-master\kotlinApp\app\src\main\AndroidManifest.xml:17:1-48:12
+	package
+		ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-FingerprintDialog-master\kotlinApp\app\src\main\AndroidManifest.xml:17:11-58
+		INJECTED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-FingerprintDialog-master\kotlinApp\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-FingerprintDialog-master\kotlinApp\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-FingerprintDialog-master\kotlinApp\app\src\main\AndroidManifest.xml:21:5-30
+		INJECTED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-FingerprintDialog-master\kotlinApp\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-FingerprintDialog-master\kotlinApp\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-FingerprintDialog-master\kotlinApp\app\src\main\AndroidManifest.xml:19:5-51
+	xmlns:android
+		ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-FingerprintDialog-master\kotlinApp\app\src\main\AndroidManifest.xml:18:5-63
+	android:versionCode
+		ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-FingerprintDialog-master\kotlinApp\app\src\main\AndroidManifest.xml:20:5-28
+		INJECTED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-FingerprintDialog-master\kotlinApp\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-FingerprintDialog-master\kotlinApp\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-FingerprintDialog-master\kotlinApp\app\src\main\AndroidManifest.xml:23:5-74
+	android:name
+		ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-FingerprintDialog-master\kotlinApp\app\src\main\AndroidManifest.xml:23:22-71
+application
+ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-FingerprintDialog-master\kotlinApp\app\src\main\AndroidManifest.xml:25:5-47:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\df80cbe13a4a6c8607f4e2a0d60124f6\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\df80cbe13a4a6c8607f4e2a0d60124f6\AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-FingerprintDialog-master\kotlinApp\app\src\main\AndroidManifest.xml:29:9-35
+	android:label
+		ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-FingerprintDialog-master\kotlinApp\app\src\main\AndroidManifest.xml:28:9-49
+	tools:ignore
+		ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-FingerprintDialog-master\kotlinApp\app\src\main\AndroidManifest.xml:31:9-48
+	android:icon
+		ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-FingerprintDialog-master\kotlinApp\app\src\main\AndroidManifest.xml:27:9-43
+	android:allowBackup
+		ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-FingerprintDialog-master\kotlinApp\app\src\main\AndroidManifest.xml:26:9-35
+	android:theme
+		ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-FingerprintDialog-master\kotlinApp\app\src\main\AndroidManifest.xml:30:9-53
+activity#com.example.android.fingerprintdialog.MainActivity
+ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-FingerprintDialog-master\kotlinApp\app\src\main\AndroidManifest.xml:33:9-41:20
+	android:label
+		ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-FingerprintDialog-master\kotlinApp\app\src\main\AndroidManifest.xml:35:13-53
+	android:theme
+		ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-FingerprintDialog-master\kotlinApp\app\src\main\AndroidManifest.xml:36:13-69
+	android:name
+		ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-FingerprintDialog-master\kotlinApp\app\src\main\AndroidManifest.xml:34:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-FingerprintDialog-master\kotlinApp\app\src\main\AndroidManifest.xml:37:13-40:29
+action#android.intent.action.MAIN
+ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-FingerprintDialog-master\kotlinApp\app\src\main\AndroidManifest.xml:38:17-69
+	android:name
+		ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-FingerprintDialog-master\kotlinApp\app\src\main\AndroidManifest.xml:38:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-FingerprintDialog-master\kotlinApp\app\src\main\AndroidManifest.xml:39:17-77
+	android:name
+		ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-FingerprintDialog-master\kotlinApp\app\src\main\AndroidManifest.xml:39:27-74
+activity#com.example.android.fingerprintdialog.SettingsActivity
+ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-FingerprintDialog-master\kotlinApp\app\src\main\AndroidManifest.xml:43:9-46:57
+	android:parentActivityName
+		ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-FingerprintDialog-master\kotlinApp\app\src\main\AndroidManifest.xml:46:13-55
+	android:label
+		ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-FingerprintDialog-master\kotlinApp\app\src\main\AndroidManifest.xml:45:13-52
+	android:name
+		ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-FingerprintDialog-master\kotlinApp\app\src\main\AndroidManifest.xml:44:13-45
+uses-sdk
+INJECTED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-FingerprintDialog-master\kotlinApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-FingerprintDialog-master\kotlinApp\app\src\main\AndroidManifest.xml
+INJECTED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-FingerprintDialog-master\kotlinApp\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:27.0.0] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.0.aar\703770f9e4f585083d00971a52748086\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.0] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.0.aar\703770f9e4f585083d00971a52748086\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.0] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.0.aar\1a64a7d37ab9183588fd61af55b21104\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.0] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.0.aar\1a64a7d37ab9183588fd61af55b21104\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.0] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.0.aar\073f1d9a34c1bcdf4ca5932c1e7e28d9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.0] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.0.aar\073f1d9a34c1bcdf4ca5932c1e7e28d9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.0] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.0.aar\799f5a79a6cd550a8e26a223ab13d990\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.0] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.0.aar\799f5a79a6cd550a8e26a223ab13d990\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.0] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.0.aar\5d09f5392d919d8491c72f5a26054d35\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.0] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.0.aar\5d09f5392d919d8491c72f5a26054d35\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.0] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.0.aar\ce7e94a61fb7af77b4f9e844f7d3d92c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.0] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.0.aar\ce7e94a61fb7af77b4f9e844f7d3d92c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.0] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.0.aar\34a3a5b504101f33c67f0c899faf9f63\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.0] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.0.aar\34a3a5b504101f33c67f0c899faf9f63\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\df80cbe13a4a6c8607f4e2a0d60124f6\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\df80cbe13a4a6c8607f4e2a0d60124f6\AndroidManifest.xml:20:5-22:41
+INJECTED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-FingerprintDialog-master\kotlinApp\app\src\main\AndroidManifest.xml
+INJECTED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-FingerprintDialog-master\kotlinApp\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-FingerprintDialog-master\kotlinApp\app\src\main\AndroidManifest.xml
+		ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-FingerprintDialog-master\kotlinApp\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-FingerprintDialog-master\kotlinApp\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-FingerprintDialog-master\kotlinApp\app\src\main\AndroidManifest.xml
+		ADDED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-FingerprintDialog-master\kotlinApp\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Bhavik\AndroidProjects\01 DEMO\21 KOTLINE DEMO\android-FingerprintDialog-master\kotlinApp\app\src\main\AndroidManifest.xml
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\df80cbe13a4a6c8607f4e2a0d60124f6\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\df80cbe13a4a6c8607f4e2a0d60124f6\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\OM\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\df80cbe13a4a6c8607f4e2a0d60124f6\AndroidManifest.xml:26:13-58
