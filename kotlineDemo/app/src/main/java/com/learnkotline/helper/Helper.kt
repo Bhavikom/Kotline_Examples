@@ -1,4 +1,4 @@
-package com.learnkotline
+package com.learnkotline.helper
 
 import android.content.Context
 import android.net.ConnectivityManager

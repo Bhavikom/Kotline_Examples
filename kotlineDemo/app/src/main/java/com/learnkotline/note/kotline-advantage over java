@@ -1,0 +1,45 @@
+1. Removed findViewById() - Instead use kotline Extenstion to get id from xml
+2. Writing POJO class is different than java - simple to write
+3. In Kotlin, all classes extend from Any, which is similar to Object in Java. By default, classes are closed,
+    like final classes in Java. So, in order to extend a class, it has to be declared as open or abstract
+4. Two Type of constructor - Primary and Secondery .
+5. Function return type should be at end of fuction name :
+    fun add(x: Int, y: Int) : Int {
+        return x + y
+    }
+6. function with defualt argument :
+    An argument of the function can have a default value, for example:
+
+    fun add(x: Int, y: Int  = 1) : Int {
+        return x + y;
+    }
+    In that case, the add() function can be invoked by passing only the x argument Like == add(10)
+
+7. Using Lambda expression - click listener in kotlin
+    view.setOnClickListener{
+        // body
+    }
+8. Null Safety
+        => all variable and properties in kotlin are considered non-null(unable to hold null value)
+        => If you want to explicitly declare variable as nullable(accept null value) a question mark must be added after the type.
+            val number: Int? = null
+        => null check using Elvis operator(?:)
+            val number Int? = null
+            val stringNumber = number?.toString() ?: "Number is null"
+        => Another neat thing is that you can use throw or return on the right-hand side of the Elvis operator since they are expressions in Kotlin. For example:
+           fun sendMailToUser(user: User) {
+               val email = user?.email ?: throw new IllegalArgumentException("User email is null")
+               //...
+           }
+
+        => If you want a NullPointerException thrown the same way as in Java,you can do that with the "!!" operator.The follwing code will throw a NullPointerException.
+
+           val number: Int? = null
+           number!!.toString()
+
+9. Casting is simple
+
+10. lateinit and lazy
+
+11. Model class is different than java  - In kotlin it's called  data classes
+

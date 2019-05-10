@@ -1,24 +1,23 @@
 package com.learnkotline
 
 import android.Manifest
-import android.content.Context
 import android.content.DialogInterface
 import android.content.Intent
 import android.content.pm.PackageManager
-import android.icu.lang.UCharacter.GraphemeClusterBreak.T
+import android.graphics.Color
 import android.net.Uri
 import android.os.Build
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.annotation.RequiresApi
 import android.support.v4.app.ActivityCompat
 import android.support.v4.content.ContextCompat
 import android.support.v7.app.AlertDialog
-import android.system.Os.bind
 import android.util.Log
-import android.view.View
 import android.widget.Button
 import android.widget.Toast
+import android.widget.Toast.makeText
+import com.learnkotline.helper.Helper
+import com.learnkotline.model.Person
 import kotlinx.android.synthetic.main.activity_main.*
 import java.util.*
 import kotlin.collections.ArrayList
@@ -28,9 +27,8 @@ class MainActivity : BaseActivity(){
 
 
     //private val button: Button by bind(R.id.btn_checknullpointer) // initialize button replace findviewby id
-    private val buttonStartActivity: Button by bind(R.id.btn3)
+    //private val buttonStartActivity: Button by bind(R.id.btn3)
     private val buttonSum: Button by bind(R.id.btn_sum)
-    private val buttonDynamic: Button by bind (R.id.btn_assign_dynamic_value)
     var test : String = "non null value"
     var test2 : String = "Kotlination.com = Be Kotlineer - Be Simple - Be Connective"
 
@@ -44,14 +42,123 @@ class MainActivity : BaseActivity(){
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        buttonDynamic.text=" This is Dynamic button" // showing text in button in kotlin
-        btn_checknullpointer.setOnClickListener{// here we have use kotlin extension to find id from xml
+        btnCheckVariableValue.text=" This is Dynamic button" // showing text in button in kotlin
+        btnCheckNullSafety.setOnClickListener{// here we have use kotlin extension to find id from xml
             var a = (5 + 5 + 5 + 5 + 5 + 5 + 5
                     +7 + 4)  /*this is to test line breaking. when there is long line and you want to wrap it put bracket in line to consider entire sentence othewise
                                 it will contain just first line.*/
 
+            var valNull:  String? = null // here we have put ? after String keyword - means variable will allow null value to accept
+                                         // if we have not put ? after String keyword "Null can not be a value of non-null type" compilation error occur bcoz kotline
+                                        // doesn't support to accept null value by default.
+            val number: Int? = null
+            Log.e(" valNull "," check null pointer exception : ${valNull} : $number ") // if it has been java it will crash but here will not crash
+
+            val stringNumber = number?.toString() ?: "Number is null" // use of Elvis operator - conditional operator like c language
+            Log.e(" stringNumber "," check null pointer exception : $stringNumber ")
+
+            // THE !! operator to forcefully throw NullPointerException in kotlin is the only way
+            val numberNullpointerThrow : Int? = null
+            // commented temporerly Log.e(" nullpointer throw "," check null pointer exception : ${numberNullpointerThrow!!.toString()}") // this will throw nullpointer
+
+
             Toast.makeText(this," click on nullpointer exception : "+a+" print static field "+Helper.strUrl,Toast.LENGTH_SHORT).show()
             firstFun()
+        }
+
+        btnCheckCasting.setOnClickListener{
+            val number: Int = 10
+            val str: String
+
+            //val casting: String = number as String
+            //Log.e(" int to string "," check casting of value : $casting") // it will crash and throw ClassCastException bcoz it's Unsafe casting
+            // There is "Safe" cast operator that return null value instead of throwing an exception:
+
+            val casting: String = number.toString()
+            Log.e(" int to string "," check casting of value : ${casting}") // it will not crash becoze of use " ?  "
+
+            val strToInt: String = "100"
+            val intTest: Int = strToInt.toInt()
+            Log.e(" string to int "," check casting of value : $intTest")
+        }
+
+        btnWhenCase.setOnClickListener{
+            var number: Int = 11
+
+            when (number){
+                0 -> Toast.makeText(this," 0 is selected ",Toast.LENGTH_SHORT).show()
+                1 -> Toast.makeText(this," 1 is selected ",Toast.LENGTH_SHORT).show()
+                2 -> Toast.makeText(this," 2 is selected ",Toast.LENGTH_SHORT).show()
+                3 -> Toast.makeText(this," 3 is selected ",Toast.LENGTH_SHORT).show()
+                4 -> Toast.makeText(this," 4 is selected ",Toast.LENGTH_SHORT).show()
+                else ->
+                    Toast.makeText(this," Nothing is selected ",Toast.LENGTH_SHORT).show()
+
+            }
+
+            /* assign result to variable directly */
+            var result = when(number) {
+                0 -> "Invalid number"
+                1, 2 -> "Number too low"
+                3 -> "Number correct"
+                4 -> "Number too high, but acceptable"
+                else -> "Number too high"
+            }
+
+            var result2 = when(number) {
+                0 -> "Invalid number"
+                1, 2 -> "Number too low"
+                3 -> "Number correct"
+                in 4..10 -> "Number too high, but acceptable"
+                !in 100..Int.MAX_VALUE -> "Number too high, but solvable"
+                else -> "Number too high"
+            }
+            Toast.makeText(this,result2+"",Toast.LENGTH_SHORT).show()
+        }
+
+        btnTypeChecking.setOnClickListener{
+            /* Type Checking is the way to check the type of a data at runtime. In Java, we have the instanceof keyword to check the type.
+                Kotlin uses is and !is keywords to check whether a property is and is not of a certain type respectively
+             */
+            var myProperty = "xyz"
+            var otherProperty = 1
+
+            if(myProperty is String){
+                Toast.makeText(this," Type is string ",Toast.LENGTH_SHORT).show()
+            }else{
+                Toast.makeText(this," unknown type ",Toast.LENGTH_SHORT).show()
+            }
+
+
+            /* create a list of Any objects and check the type of each element
+                 use the when statement to check the type of each element in a for loop.
+            * */
+            val anyList: List<Any> = listOf("JournalDev.com", "Java", 101, 12.5f,12.5456789,false)
+            for(value in anyList) {
+                when (value) {
+                    is String ->
+                        Log.e(" string ","String: '$value'. Capitalize :${value.capitalize()}")
+                    is Int ->
+                        Log.e(" integer ","Integer: '$value'")
+                    is Double ->
+                        Log.e(" double ","Double: '$value'")
+                    is Float ->
+                        Log.e(" float","Float: '$value'")
+                    else ->
+                        Log.e(" unknown ","Unknown Type")
+                }
+            }
+
+
+
+        }
+        btnWithFunction.setOnClickListener{
+            /*  access many properties of an object */
+
+            with(btnWithFunction){
+                text = " with() function "
+            }
+
         }
 
         btnModelClas.setOnClickListener{
@@ -99,6 +206,8 @@ class MainActivity : BaseActivity(){
             arralistCustom.add(Person("Mehul",35,"dham@d.com",7656894512))
             arralistCustom.add(Person("Roshan",26,"dham@d.com",8989898956))
 
+            val myArray = arrayOf(4, 5, 7, 3, "Chike", false)
+
             Log.e(" arraylist  custom "," check various arraylist : $arralistCustom")
 
             // for loop example
@@ -122,7 +231,12 @@ class MainActivity : BaseActivity(){
 
             // for each loop
             arralistCustom.forEach(){
-                Log.e(" for loop break sate"," for each loop  ${it.age}")
+                Log.e(" for loop break sate"," for each loop  ${it.email}")
+            }
+
+            var array = arrayListOf<String>(" aryan ","Bhavik","ajay","Mayur")
+            array.forEach {
+                Log.e(" ##### "," for each for array : "+it)
             }
 
             (0..10).forEach(){
@@ -132,18 +246,35 @@ class MainActivity : BaseActivity(){
 
         }
 
+        btnStartActivity.setOnClickListener {
+            val intent = Intent(this, SecondActivity::class.java)
+            //intent.putExtra("message","mainactivity")
+            startActivity(intent)
+            finish()
+        }
+
+        btnCallFragment.setOnClickListener{
+            supportFragmentManager
+                    // 3
+                    .beginTransaction()
+                    // 4
+                    .add(R.id.frame_container, FirstFragment.newInstance("",""), "dogList")
+                    .addToBackStack(null)
+                    // 5
+                    .commit()
+        }
+
+        stringVariable = btnCheckVariableValue.text as String
+        btnCheckVariableValue.setOnClickListener {
+            Log.e(""," getting value from button in string variable : $stringVariable , $integerVariable , $readOnlyVariable")
+        }
+
         btnCheckNetworkConnection.setOnClickListener{ // this is to check network connection and alos compain object to access static field bcoz there is not STATIC in kotlin
             if(Helper.isNetworkAvailable(this)){
                 Toast.makeText(this,"Network is available : ",Toast.LENGTH_SHORT).show()
             }else{
                 Toast.makeText(this,"Network is not available : ",Toast.LENGTH_SHORT).show()
             }
-        }
-        buttonStartActivity.setOnClickListener {
-            val intent = Intent(this, SecondActivity::class.java)
-            //intent.putExtra("message","mainactivity")
-            startActivity(intent)
-            finish()
         }
         buttonSum.setOnClickListener {
             Toast.makeText(this, "This answer is from Kotlin function -->"+giveAddition(2,3), Toast.LENGTH_LONG).show()
@@ -218,16 +349,27 @@ class MainActivity : BaseActivity(){
 
 
         }
-
-        stringVariable = buttonDynamic.text as String
-        buttonDynamic.setOnClickListener {
-            Log.e(""," getting value from button in string variable : $stringVariable , $integerVariable , $readOnlyVariable")
+        btnShowAlertDialog.setOnClickListener{
+            showAlertDialog("This is Sample AlertDialog",
+                    DialogInterface.OnClickListener { dialog, which ->
+                        when (which) {
+                            DialogInterface.BUTTON_POSITIVE -> dialog.cancel()
+                            DialogInterface.BUTTON_NEGATIVE ->
+                                // proceed with logic by disabling the related features or quit the app.
+                                dialog.cancel()
+                        }
+                    })
         }
-        /*val button = findViewById(R.id.btn1) as Button
-        var abc = " bhai"
-        button.setOnClickListener {
-            Toast.makeText(this,"DONE $abc",Toast.LENGTH_LONG).show()
-        }*/
+        btnLoops.setOnClickListener{
+            outer@ for (n in 2..100) {
+                for (d in 2 until n) {
+                    if (n % d == 0) continue@outer
+                }
+                println("$n is prime")
+            }
+        }
+
+
     }
     // function with void value without parameter
     fun firstFun(){
@@ -277,7 +419,14 @@ class MainActivity : BaseActivity(){
                 .create()
                 .show()
     }
-
+    private fun showAlertDialog(message: String, okListener: DialogInterface.OnClickListener) {
+        AlertDialog.Builder(this)
+                .setMessage(message)
+                .setPositiveButton("OK", okListener)
+                .setNegativeButton("Cancel", okListener)
+                .create()
+                .show()
+    }
     private fun explain(msg: String) {
         val dialog = android.support.v7.app.AlertDialog.Builder(this)
         dialog.setMessage(msg)

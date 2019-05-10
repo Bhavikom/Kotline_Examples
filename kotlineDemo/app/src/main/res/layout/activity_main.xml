@@ -1,66 +1,157 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    >
+    android:id="@+id/frame_container"
+    android:layout_height="match_parent">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/btn_checknullpointer"
-        android:text="Check nullpointerexception handling"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/btn_sum"
-        android:text="What is 2 + 3 ?"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/btn3"
-        android:text="Start Activity"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/btn_assign_dynamic_value"
-        android:text="Start Activity"/>
-    <Button
-        android:id="@+id/btnCheckNetworkConnection"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Check Network Connection"/>
-    <Button
-        android:id="@+id/btnCheckArraylist"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Check Arraylist"/>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/linear_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
 
-    <Button
-        android:id="@+id/btnModelClas"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Check ModelClass"/>
+            <Button
+                android:id="@+id/btnCheckNullSafety"
+                style="@style/Button_Style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Check Null Safety in kotlin" />
 
-    <Button
-        android:id="@+id/btnCheckPermission"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Check Marshmallow Permission"/>
+            <Button
+                android:id="@+id/btnCheckCasting"
+                style="@style/Button_Style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Check Casting" />
 
-    <Button
-        android:id="@+id/btnHashmap"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Check Hashmap"/>
+            <Button
+                android:id="@+id/btnWhenCase"
+                style="@style/Button_Style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="When Instead of switch case" />
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/img"/>
+            <Button
+                android:id="@+id/btnTypeChecking"
+                style="@style/Button_Style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Kotlin type checking" />
+
+            <Button
+                android:id="@+id/btnWithFunction"
+                style="@style/Button_Style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Kotlin With() call" />
+
+            <Button
+                android:id="@+id/btn_sum"
+                style="@style/Button_Style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="What is 2 + 3 ?" />
+
+            <Button
+                android:id="@+id/btnStartActivity"
+                style="@style/Button_Style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Start Activity" />
+
+            <Button
+                android:id="@+id/btnCallFragment"
+                style="@style/Button_Style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Show Fragment" />
+
+            <Button
+                android:id="@+id/btnCheckVariableValue"
+                style="@style/Button_Style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Check value of Variable" />
+
+            <Button
+                android:id="@+id/btnCheckNetworkConnection"
+                style="@style/Button_Style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Check Network Connection" />
+
+            <Button
+                android:id="@+id/btnCheckArraylist"
+                style="@style/Button_Style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Check Arraylist" />
+
+            <Button
+                android:id="@+id/btnModelClas"
+                style="@style/Button_Style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Check ModelClass" />
+
+            <Button
+                android:id="@+id/btnCheckPermission"
+                style="@style/Button_Style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Check Marshmallow Permission" />
+
+            <Button
+                android:id="@+id/btnHashmap"
+                style="@style/Button_Style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Check Hashmap" />
+
+            <Button
+                android:id="@+id/btnShowAlertDialog"
+                style="@style/Button_Style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Show AlertDialog" />
+
+            <Button
+                android:id="@+id/btnLoops"
+                style="@style/Button_Style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Loops" />
+
+            <ImageView
+                android:id="@+id/img"
+                style="@style/Button_Style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp" />
 
 
-</LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
