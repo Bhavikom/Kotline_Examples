@@ -78,7 +78,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
-                android:text="Show Fragment" />
+                android:text="Show Fragment With Recyclerview" />
 
             <Button
                 android:id="@+id/btnCheckVariableValue"

@@ -37,6 +37,14 @@
            val number: Int? = null
            number!!.toString()
 
+        => Safe call operator(?.)
+            Another way of using a nullable property is safe call operator ?.
+            This calls the method if the property is not null or returns null if that property is null without throwing an NPE (null pointer exception).
+
+            val number: Int? = null
+            number?.toString()
+
+
 9. Casting is simple
 
 10. lateinit and lazy
