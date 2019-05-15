@@ -8,17 +8,20 @@ import android.graphics.Color
 import android.net.Uri
 import android.os.Build
 import android.os.Bundle
-import android.support.annotation.RequiresApi
-import android.support.v4.app.ActivityCompat
-import android.support.v4.content.ContextCompat
-import android.support.v7.app.AlertDialog
+import android.text.TextUtils
+import androidx.annotation.RequiresApi
+import androidx.core.app.ActivityCompat
+import androidx.core.content.ContextCompat
+import androidx.appcompat.app.AlertDialog
 import android.util.Log
 import android.widget.Button
 import android.widget.Toast
 import android.widget.Toast.makeText
 import com.learnkotline.helper.Helper
+import com.learnkotline.helper.MyPreferences
 import com.learnkotline.model.Person
 import kotlinx.android.synthetic.main.activity_main.*
+import org.jetbrains.anko.startActivity
 import java.util.*
 import kotlin.collections.ArrayList
 
@@ -36,12 +39,24 @@ class MainActivity : BaseActivity(){
     private var stringVariable : String? = null //declaring string variable
     private var integerVariable : Int? = 10 //value of this variable can be changed
     private val readOnlyVariable: Int = 1 //value of this variable can not be changed
-
+    var sharedPreferences: MyPreferences? = null
     @RequiresApi(Build.VERSION_CODES.N)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        sharedPreferences = MyPreferences(this)
+        if(!TextUtils.isEmpty(sharedPreferences!!.getValueString(MyPreferences.KEY_LOGIN))){
+                if(sharedPreferences!!.getValueString(MyPreferences.KEY_LOGIN).toString().equals("yes")){
+                    // just stay here
+                }else{
+                    startActivity(Intent(this,SplashActivity::class.java))
+                    finish()
+                }
+        }else{
+            startActivity(Intent(this,SplashActivity::class.java))
+            finish()
+        }
         btnCheckVariableValue.text=" This is Dynamic button" // showing text in button in kotlin
         btnCheckNullSafety.setOnClickListener{// here we have use kotlin extension to find id from xml
             var a = (5 + 5 + 5 + 5 + 5 + 5 + 5
@@ -248,7 +263,7 @@ class MainActivity : BaseActivity(){
 
         btnStartActivity.setOnClickListener {
             val intent = Intent(this, SecondActivity::class.java)
-            //intent.putExtra("message","mainactivity")
+            intent.putExtra("message","mainactivity")
             startActivity(intent)
             finish()
         }
@@ -419,16 +434,8 @@ class MainActivity : BaseActivity(){
                 .create()
                 .show()
     }
-    private fun showAlertDialog(message: String, okListener: DialogInterface.OnClickListener) {
-        AlertDialog.Builder(this)
-                .setMessage(message)
-                .setPositiveButton("OK", okListener)
-                .setNegativeButton("Cancel", okListener)
-                .create()
-                .show()
-    }
     private fun explain(msg: String) {
-        val dialog = android.support.v7.app.AlertDialog.Builder(this)
+        val dialog = androidx.appcompat.app.AlertDialog.Builder(this)
         dialog.setMessage(msg)
                 .setPositiveButton("Yes") { paramDialogInterface, paramInt ->
                     //  permissionsclass.requestPermission(type,code);
