@@ -57,6 +57,11 @@ class MainActivity : BaseActivity(){
             startActivity(Intent(this,SplashActivity::class.java))
             finish()
         }
+
+        btnActivityBottomNavigation.setOnClickListener{
+            startActivity(Intent(this,BottomNavigationActivity::class.java))
+            finish()
+        }
         btnCheckVariableValue.text=" This is Dynamic button" // showing text in button in kotlin
         btnCheckNullSafety.setOnClickListener{// here we have use kotlin extension to find id from xml
             var a = (5 + 5 + 5 + 5 + 5 + 5 + 5
