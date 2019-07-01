@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Bhavik\\AndroidProjects\\01 DEMO\\21 KOTLINE DEMO\\android-RecyclerView-master\\kotlinApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fr-rCA\\values-fr-rCA.xml",
+            "outputFile": "E:\\Bhavik\\AndroidProjects\\01 DEMO\\04 Kotlin_Examples\\android-RecyclerView-master\\kotlinApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fr-rCA\\values-fr-rCA.xml",
             "map": [
                 {
                     "source": "C:\\Users\\OM\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\1a1a1e1f15401b0c6f53c96da466f052\\res\\values-fr-rCA\\values-fr-rCA.xml",

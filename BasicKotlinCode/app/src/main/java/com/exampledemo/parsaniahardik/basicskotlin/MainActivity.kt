@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
         Log.e(" zero "," check null value : "+x)
         button.text = "give string to button by this way!"
 
-        Toast.makeText(this," done "+button.text,Toast.LENGTH_SHORT).show();
+        Toast.makeText(this," done "+button.text,Toast.LENGTH_SHORT).show()
 
         stringVariable = button.text as String //giving button's string to stringVariable
 

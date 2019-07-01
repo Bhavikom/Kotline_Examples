@@ -1,13 +1,22 @@
-1. marshmallow permission
-2. widget initializaion
-3. method(funcition) declaration
-4. button click listener
-5. start new activity
-6. nullpointer explain
-7. Model(Pojo) class expalined
-8. various arraylist demo
-9. check network connection
-10. companion object
-11. show AlertDialog
-12. intent extra
-13. hashmap
+variable declaration
+lazy and lateinit declaration
+arraylist and its use
+hashmap and its use
+when instead of switch
+for loop
+for each loop
+data classes
+start activity
+show fragment
+check network connection
+email validation
+with() function
+splite string
+
+widget access from xml
+click listener
+function and its calling
+nullpointer explain
+companion object
+show alertdialog
+marshmallow permission

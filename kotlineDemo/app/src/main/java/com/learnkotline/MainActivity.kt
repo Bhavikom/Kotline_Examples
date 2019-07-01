@@ -19,6 +19,7 @@ import android.widget.Toast
 import android.widget.Toast.makeText
 import com.learnkotline.helper.Helper
 import com.learnkotline.helper.MyPreferences
+import com.learnkotline.model.CityModel
 import com.learnkotline.model.Person
 import kotlinx.android.synthetic.main.activity_main.*
 import org.jetbrains.anko.startActivity
@@ -40,13 +41,17 @@ class MainActivity : BaseActivity(){
     private var integerVariable : Int? = 10 //value of this variable can be changed
     private val readOnlyVariable: Int = 1 //value of this variable can not be changed
     var sharedPreferences: MyPreferences? = null
+    lateinit var cityModel: CityModel // use lateinit to declare non null varialbes without initialize
+    val name: String by lazy { "Om Makvana" } // use lazy to declare val type varialble
+
     @RequiresApi(Build.VERSION_CODES.N)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        cityModel = CityModel("Bhavnagar",101)
         sharedPreferences = MyPreferences(this)
-        if(!TextUtils.isEmpty(sharedPreferences!!.getValueString(MyPreferences.KEY_LOGIN))){
+        if(!TextUtils.isEmpty(sharedPreferences?.getValueString(MyPreferences.KEY_LOGIN))){
                 if(sharedPreferences!!.getValueString(MyPreferences.KEY_LOGIN).toString().equals("yes")){
                     // just stay here
                 }else{
@@ -66,7 +71,7 @@ class MainActivity : BaseActivity(){
         btnCheckNullSafety.setOnClickListener{// here we have use kotlin extension to find id from xml
             var a = (5 + 5 + 5 + 5 + 5 + 5 + 5
                     +7 + 4)  /*this is to test line breaking. when there is long line and you want to wrap it put bracket in line to consider entire sentence othewise
-                                it will contain just first line.*/
+                  `              it will contain just first line.*/
 
             var valNull:  String? = null // here we have put ? after String keyword - means variable will allow null value to accept
                                          // if we have not put ? after String keyword "Null can not be a value of non-null type" compilation error occur bcoz kotline
@@ -177,6 +182,7 @@ class MainActivity : BaseActivity(){
 
             with(btnWithFunction){
                 text = " with() function "
+                setTextColor(getColor(R.color.colorAccent))
             }
 
         }

@@ -1,27 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Bhavik\\AndroidProjects\\01 DEMO\\21 KOTLINE DEMO\\android-RecyclerView-master\\kotlinApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "E:\\Bhavik\\AndroidProjects\\01 DEMO\\04 Kotlin_Examples\\android-RecyclerView-master\\kotlinApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "E:\\Bhavik\\AndroidProjects\\01 DEMO\\21 KOTLINE DEMO\\android-RecyclerView-master\\kotlinApp\\app\\src\\main\\res\\values\\fragmentview_strings.xml",
+                    "source": "E:\\Bhavik\\AndroidProjects\\01 DEMO\\04 Kotlin_Examples\\android-RecyclerView-master\\kotlinApp\\app\\src\\main\\res\\values\\dimens.xml",
                     "from": {
-                        "startLines": "17,16",
-                        "startColumns": "4,4",
-                        "startOffsets": "670,617",
-                        "endColumns": "52,52",
-                        "endOffsets": "718,665"
+                        "startLines": "18",
+                        "startColumns": "4",
+                        "startOffsets": "647",
+                        "endColumns": "47",
+                        "endOffsets": "690"
                     },
                     "to": {
-                        "startLines": "264,265",
-                        "startColumns": "4,4",
-                        "startOffsets": "17172,17225",
-                        "endColumns": "52,52",
-                        "endOffsets": "17220,17273"
+                        "startLines": "167",
+                        "startColumns": "4",
+                        "startOffsets": "11486",
+                        "endColumns": "47",
+                        "endOffsets": "11529"
                     }
                 },
                 {
-                    "source": "E:\\Bhavik\\AndroidProjects\\01 DEMO\\21 KOTLINE DEMO\\android-RecyclerView-master\\kotlinApp\\app\\src\\main\\res\\values\\template-dimens.xml",
+                    "source": "E:\\Bhavik\\AndroidProjects\\01 DEMO\\04 Kotlin_Examples\\android-RecyclerView-master\\kotlinApp\\app\\src\\main\\res\\values\\template-dimens.xml",
                     "from": {
                         "startLines": "28,24,23,22,21,20,29",
                         "startColumns": "4,4,4,4,4,4,4",
@@ -35,6 +35,25 @@
                         "startOffsets": "11193,11534,11577,11621,11666,11709,13182",
                         "endColumns": "69,42,43,44,42,41,67",
                         "endOffsets": "11258,11572,11616,11661,11704,11746,13245"
+                    }
+                },
+                {
+                    "source": "E:\\Bhavik\\AndroidProjects\\01 DEMO\\04 Kotlin_Examples\\android-RecyclerView-master\\kotlinApp\\app\\src\\main\\res\\values\\base-strings.xml",
+                    "from": {
+                        "startLines": "18,19",
+                        "startColumns": "4,4",
+                        "startOffsets": "647,697",
+                        "endLines": "18,29",
+                        "endColumns": "49,13",
+                        "endOffsets": "692,1092"
+                    },
+                    "to": {
+                        "startLines": "249,252",
+                        "startColumns": "4,4",
+                        "startOffsets": "16533,16700",
+                        "endLines": "249,262",
+                        "endColumns": "49,13",
+                        "endOffsets": "16578,17095"
                     }
                 },
                 {
@@ -57,37 +76,22 @@
                     }
                 },
                 {
-                    "source": "E:\\Bhavik\\AndroidProjects\\01 DEMO\\21 KOTLINE DEMO\\android-RecyclerView-master\\kotlinApp\\app\\src\\main\\res\\values\\dimens.xml",
+                    "source": "E:\\Bhavik\\AndroidProjects\\01 DEMO\\04 Kotlin_Examples\\android-RecyclerView-master\\kotlinApp\\app\\src\\main\\res\\values\\template-styles.xml",
                     "from": {
-                        "startLines": "18",
-                        "startColumns": "4",
-                        "startOffsets": "647",
-                        "endColumns": "47",
-                        "endOffsets": "690"
+                        "startLines": "24,20,22,27,29,34",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "768,651,713,849,878,1075",
+                        "endLines": "24,20,22,27,32,39",
+                        "endColumns": "51,60,53,27,12,12",
+                        "endOffsets": "815,707,762,872,1069,1348"
                     },
                     "to": {
-                        "startLines": "167",
-                        "startColumns": "4",
-                        "startOffsets": "11486",
-                        "endColumns": "47",
-                        "endOffsets": "11529"
-                    }
-                },
-                {
-                    "source": "E:\\Bhavik\\AndroidProjects\\01 DEMO\\21 KOTLINE DEMO\\android-RecyclerView-master\\kotlinApp\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "18,19,20",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "647,696,764",
-                        "endColumns": "48,67,71",
-                        "endOffsets": "691,759,831"
-                    },
-                    "to": {
-                        "startLines": "250,251,263",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "16583,16632,17100",
-                        "endColumns": "48,67,71",
-                        "endOffsets": "16627,16695,17167"
+                        "startLines": "273,1560,1561,1569,1666,1670",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "17844,103272,103332,104057,111793,111989",
+                        "endLines": "273,1560,1561,1569,1669,1675",
+                        "endColumns": "50,59,52,26,12,12",
+                        "endOffsets": "17890,103327,103380,104079,111984,112262"
                     }
                 },
                 {
@@ -105,6 +109,23 @@
                         "startOffsets": "10419,10478,10526,11263,11338,11414,13637,130380",
                         "endColumns": "58,47,55,74,75,71,65,629",
                         "endOffsets": "10473,10521,10577,11333,11409,11481,13698,131005"
+                    }
+                },
+                {
+                    "source": "E:\\Bhavik\\AndroidProjects\\01 DEMO\\04 Kotlin_Examples\\android-RecyclerView-master\\kotlinApp\\app\\src\\main\\res\\values\\fragmentview_strings.xml",
+                    "from": {
+                        "startLines": "17,16",
+                        "startColumns": "4,4",
+                        "startOffsets": "670,617",
+                        "endColumns": "52,52",
+                        "endOffsets": "718,665"
+                    },
+                    "to": {
+                        "startLines": "264,265",
+                        "startColumns": "4,4",
+                        "startOffsets": "17172,17225",
+                        "endColumns": "52,52",
+                        "endOffsets": "17220,17273"
                     }
                 },
                 {
@@ -127,41 +148,20 @@
                     }
                 },
                 {
-                    "source": "E:\\Bhavik\\AndroidProjects\\01 DEMO\\21 KOTLINE DEMO\\android-RecyclerView-master\\kotlinApp\\app\\src\\main\\res\\values\\base-strings.xml",
+                    "source": "E:\\Bhavik\\AndroidProjects\\01 DEMO\\04 Kotlin_Examples\\android-RecyclerView-master\\kotlinApp\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "18,19",
-                        "startColumns": "4,4",
-                        "startOffsets": "647,697",
-                        "endLines": "18,29",
-                        "endColumns": "49,13",
-                        "endOffsets": "692,1092"
+                        "startLines": "18,19,20",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "647,696,764",
+                        "endColumns": "48,67,71",
+                        "endOffsets": "691,759,831"
                     },
                     "to": {
-                        "startLines": "249,252",
-                        "startColumns": "4,4",
-                        "startOffsets": "16533,16700",
-                        "endLines": "249,262",
-                        "endColumns": "49,13",
-                        "endOffsets": "16578,17095"
-                    }
-                },
-                {
-                    "source": "E:\\Bhavik\\AndroidProjects\\01 DEMO\\21 KOTLINE DEMO\\android-RecyclerView-master\\kotlinApp\\app\\src\\main\\res\\values\\template-styles.xml",
-                    "from": {
-                        "startLines": "24,20,22,27,29,34",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "768,651,713,849,878,1075",
-                        "endLines": "24,20,22,27,32,39",
-                        "endColumns": "51,60,53,27,12,12",
-                        "endOffsets": "815,707,762,872,1069,1348"
-                    },
-                    "to": {
-                        "startLines": "273,1560,1561,1569,1666,1670",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "17844,103272,103332,104057,111793,111989",
-                        "endLines": "273,1560,1561,1569,1669,1675",
-                        "endColumns": "50,59,52,26,12,12",
-                        "endOffsets": "17890,103327,103380,104079,111984,112262"
+                        "startLines": "250,251,263",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "16583,16632,17100",
+                        "endColumns": "48,67,71",
+                        "endOffsets": "16627,16695,17167"
                     }
                 }
             ]

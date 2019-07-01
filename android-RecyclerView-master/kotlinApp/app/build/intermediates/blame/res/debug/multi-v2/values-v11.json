@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Bhavik\\AndroidProjects\\01 DEMO\\21 KOTLINE DEMO\\android-RecyclerView-master\\kotlinApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "outputFile": "E:\\Bhavik\\AndroidProjects\\01 DEMO\\04 Kotlin_Examples\\android-RecyclerView-master\\kotlinApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
             "map": [
                 {
-                    "source": "E:\\Bhavik\\AndroidProjects\\01 DEMO\\21 KOTLINE DEMO\\android-RecyclerView-master\\kotlinApp\\app\\src\\main\\res\\values-v11\\template-styles.xml",
+                    "source": "E:\\Bhavik\\AndroidProjects\\01 DEMO\\04 Kotlin_Examples\\android-RecyclerView-master\\kotlinApp\\app\\src\\main\\res\\values-v11\\template-styles.xml",
                     "from": {
                         "startLines": "19",
                         "startColumns": "4",
