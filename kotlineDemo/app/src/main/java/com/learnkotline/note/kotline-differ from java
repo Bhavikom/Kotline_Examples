@@ -66,4 +66,7 @@
     // safe call ?.
     // safe call with let ?.let{}
 24. Use : instead of extends to inherite class
+25. resources instead of getResources()
+26. SmartCast
+    ?.let
 
