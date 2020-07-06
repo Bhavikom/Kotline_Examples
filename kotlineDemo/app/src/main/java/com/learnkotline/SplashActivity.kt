@@ -20,5 +20,6 @@ class SplashActivity : BaseActivity() {
     }
     companion object{
         val SPLASH_TIMEOUT: Long = 2000;
+        //const val SPLASH = 2000
     }
 }

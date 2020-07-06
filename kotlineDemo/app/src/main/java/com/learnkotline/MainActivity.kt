@@ -40,7 +40,7 @@ class MainActivity : BaseActivity(){
     private var stringVariable : String? = null //declaring string variable
     private var integerVariable : Int? = 10 //value of this variable can be changed
     private val readOnlyVariable: Int = 1 //value of this variable can not be changed
-    var sharedPreferences: MyPreferences? = null
+    lateinit var sharedPreferences: MyPreferences
     lateinit var cityModel: CityModel // use lateinit to declare non null varialbes without initialize
     val name: String by lazy { "Om Makvana" } // use lazy to declare val type varialble
 
@@ -51,8 +51,8 @@ class MainActivity : BaseActivity(){
 
         cityModel = CityModel("Bhavnagar",101)
         sharedPreferences = MyPreferences(this)
-        if(!TextUtils.isEmpty(sharedPreferences?.getValueString(MyPreferences.KEY_LOGIN))){
-                if(sharedPreferences!!.getValueString(MyPreferences.KEY_LOGIN).toString().equals("yes")){
+        if(!TextUtils.isEmpty(sharedPreferences.getValueString(MyPreferences.KEY_LOGIN))){
+                if(sharedPreferences.getValueString(MyPreferences.KEY_LOGIN).toString().equals("yes")){
                     // just stay here
                 }else{
                     startActivity(Intent(this,SplashActivity::class.java))
@@ -69,6 +69,8 @@ class MainActivity : BaseActivity(){
         }
         btnCheckVariableValue.text=" This is Dynamic button" // showing text in button in kotlin
         btnCheckNullSafety.setOnClickListener{// here we have use kotlin extension to find id from xml
+
+            println(SplashActivity.SPLASH_TIMEOUT)
             var a = (5 + 5 + 5 + 5 + 5 + 5 + 5
                     +7 + 4)  /*this is to test line breaking. when there is long line and you want to wrap it put bracket in line to consider entire sentence othewise
                   `              it will contain just first line.*/
